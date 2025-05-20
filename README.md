@@ -1,6 +1,6 @@
 # 🌤️ Weather App
 
-![Weather App Banner](https://israk-hossain-pantho.github.io/Weather-App/images/clear.png)
+![Weather App Banner](https://israk-hossain-pantho.github.io/Weather-App/images/Weather%20App.png)
 
 > A simple and beautiful Weather Application built with HTML, CSS, and JavaScript that shows real-time weather updates using the **OpenWeatherMap API**.
 
