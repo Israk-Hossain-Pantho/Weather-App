@@ -20,19 +20,19 @@
         </div>
 
         <div class="weather">
-            <img src="images/rain.png" class="weather-icon">
+            <img src="https://github.com/Israk-Hossain-Pantho/Weather-App/blob/main/images/rain.png" class="weather-icon">
             <h1 class="temp">22°c</h1>
             <h2 class="city">Dhaka</h2>
             <div class="details">
                 <div class="col">
-                    <img src="images/humidity.png">
+                    <img src="https://github.com/Israk-Hossain-Pantho/Weather-App/blob/main/images/humidity.png">
                     <div>
                         <p class="humidity">50%</p>
                         <p>Humidity</p>
                     </div>
                 </div>
                 <div class="col">
-                    <img src="images/wind.png">
+                    <img src="https://github.com/Israk-Hossain-Pantho/Weather-App/blob/main/images/wind.png">
                     <div>
                         <p class="wind">15 km/h</p>
                         <p>Wind Speed</p>
@@ -71,11 +71,11 @@ async function checkWeather(city) {
     const weatherIcon = document.querySelector(".weather-icon");
     const condition = data.weather[0].main;
 
-    if (condition === "Clouds") weatherIcon.src = "blob/main/images/clouds.png";
-    else if (condition === "Clear") weatherIcon.src = "images/clear.png";
-    else if (condition === "Rain") weatherIcon.src = "images/rain.png";
-    else if (condition === "Drizzle") weatherIcon.src = "images/drizzle.png";
-    else if (condition === "Mist") weatherIcon.src = "images/mist.png";
+    if (condition === "Clouds") weatherIcon.src = "https://github.com/Israk-Hossain-Pantho/Weather-App/blob/main/images/clouds.png";
+    else if (condition === "Clear") weatherIcon.src = "https://github.com/Israk-Hossain-Pantho/Weather-App/blob/main/images/clear.png";
+    else if (condition === "Rain") weatherIcon.src = "https://github.com/Israk-Hossain-Pantho/Weather-App/blob/main/images/rain.png";
+    else if (condition === "Drizzle") weatherIcon.src = "https://github.com/Israk-Hossain-Pantho/Weather-App/blob/main/images/drizzle.png";
+    else if (condition === "Mist") weatherIcon.src = "https://github.com/Israk-Hossain-Pantho/Weather-App/blob/main/images/mist.png";
 
     document.querySelector(".weather").style.display = "block";
     document.querySelector(".error").style.display = "none";
