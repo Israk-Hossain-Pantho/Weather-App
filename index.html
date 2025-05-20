@@ -71,11 +71,11 @@ async function checkWeather(city) {
     const weatherIcon = document.querySelector(".weather-icon");
     const condition = data.weather[0].main;
 
-    if (condition === "Clouds") weatherIcon.src = "images/clouds.png";
-    else if (condition === "Clear") weatherIcon.src = "images/clear.png";
-    else if (condition === "Rain") weatherIcon.src = "images/rain.png";
-    else if (condition === "Drizzle") weatherIcon.src = "images/drizzle.png";
-    else if (condition === "Mist") weatherIcon.src = "images/mist.png";
+    if (condition === "Clouds") weatherIcon.src = "Images/clouds.png";
+    else if (condition === "Clear") weatherIcon.src = "Images/clear.png";
+    else if (condition === "Rain") weatherIcon.src = "Images/rain.png";
+    else if (condition === "Drizzle") weatherIcon.src = "Images/drizzle.png";
+    else if (condition === "Mist") weatherIcon.src = "Images/mist.png";
 
     document.querySelector(".weather").style.display = "block";
     document.querySelector(".error").style.display = "none";
